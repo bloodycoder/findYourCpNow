@@ -1,0 +1,7 @@
+2019-11-17 14:56:11.308 CST [1589] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-11-17 14:56:11.308 CST [1589] LOG:  listening on IPv6 address "::1", port 5432
+2019-11-17 14:56:11.308 CST [1589] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-11-17 14:56:11.322 CST [1590] LOG:  database system was shut down at 2019-11-17 14:56:00 CST
+2019-11-17 14:56:11.327 CST [1589] LOG:  database system is ready to accept connections
+2019-11-17 14:56:17.426 CST [1609] FATAL:  role "admin" does not exist
+2019-11-17 14:56:45.079 CST [1625] FATAL:  database "CloneBook_development" does not exist
