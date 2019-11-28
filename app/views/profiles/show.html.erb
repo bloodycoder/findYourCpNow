@@ -119,7 +119,7 @@
         <% if post.likes.count > 0 %>
 
           <p class="liked-by">
-            <%= fa_icon('thumbs-up', type: :solid, style: 'color:rgb(66,103,178)') %>
+            <%= fa_icon('thumbs-up', type: :solid, style: 'color:RGB(35,153,85)') %>
             <% case post.likes.count %>
             <% when 1 %>
                 <% user = User.find(post.likes.first.user_id) %>

@@ -27,32 +27,32 @@
   <%= form_for @profile do |f| %>
 
 
-      <%= f.label :avatar, fa_icon('image', type: :solid, text: "替换头像", color: 'rgb(66, 103, 178)'), class: 'photo-label avatar-label' %>
+      <%= f.label :avatar, fa_icon('image', type: :solid, text: "替换头像", color: 'rgb(35,153,85)'), class: 'photo-label avatar-label' %>
       <%= f.file_field :avatar, class: 'post-photo profile-photo-select' %>
 
-      <%= f.label :cover, fa_icon('image', type: :solid, text: "替换封面照片", color: 'rgb(66, 103, 178)'), class: 'photo-label cover-photo-label' %>
+      <%= f.label :cover, fa_icon('image', type: :solid, text: "替换封面照片", color: 'rgb(35,153,85)'), class: 'photo-label cover-photo-label' %>
       <%= f.file_field :cover, class: 'post-photo cover-photo-select' %>
       <br/>
 
       <div class="edit-profile-fields">
-        <%= f.label :birthday, "Birthday" %>
+        <%= f.label :birthday, "生日" %>
         <%= f.date_field :birthday, autocomplete: "off" %>
         <br/>
 
-        <%= f.label :gender, "Gender" %>
+        <%= f.label :gender, "性别" %>
         <%= f.text_field :gender, autocomplete: "off" %>
         <br/>
 
-        <%= f.label :location, "City" %>
+        <%= f.label :location, "城市" %>
         <%= f.text_field :location %>
         <br/>
 
-        <%= f.label :bio, "About Me" %>
+        <%= f.label :bio, "关于我" %>
         <%= f.text_area :bio %>
         <br/>
       </div>
 
-        <%= f.submit "Save Your Profile", class: "profile-edit-submit-button" %>
+        <%= f.submit "保存资料", class: "profile-edit-submit-button" %>
         <br/>
 
   <% end %>

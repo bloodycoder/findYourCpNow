@@ -12,7 +12,7 @@
     <% end %>
 
     <%= f.text_area :content, rows: "3", placeholder: "随便发点什么, #{current_user.first_name}?" %><br/>
-    <%= f.label :image, fa_icon('image', type: :solid, text: "照片", color: 'rgb(66, 103, 178)'), class: 'photo-label' %><br/>
+    <%= f.label :image, fa_icon('image', type: :solid, text: "照片", color: 'rgb(35,153,85)'), class: 'photo-label' %><br/>
     <%= f.file_field :image, class: 'post-photo' %><br/>
     <%= f.submit "发布" %>
   <% end %>
@@ -70,7 +70,7 @@
     <% if post.likes.count > 0 %>
 
       <p class="liked-by">
-        <%= fa_icon('thumbs-up', type: :solid, style: 'color:rgb(66,103,178)') %>
+        <%= fa_icon('thumbs-up', type: :solid, style: 'color:RGB(35,153,85)') %>
         <% case post.likes.count %>
         <% when 1 %>
             <% user = User.find(post.likes.first.user_id) %>
