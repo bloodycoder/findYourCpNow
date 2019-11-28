@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>CloneBook</title>
+    <title>getCP</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -20,7 +20,7 @@
         <ul style="list-style: none;">
           <% if user_signed_in? %>
             <li class="link-all-users">
-              <%= link_to 'All Users', users_index_path %>
+              <%= link_to '周围用户', users_index_path %>
             </li>
             <li class="navbar-tac">
               <%= image_tag current_user.profile.profile_photo('tac'), class: "tac-image" %>
@@ -29,18 +29,18 @@
               <%= link_to "#{current_user.first_name}", current_user.profile %>
             </li>
             <li class="link-home">
-              <%= link_to 'Home', root_url %>
+              <%= link_to '朋友圈', root_url %>
             </li>
             <% if current_user.received_requests.where(accepted: 0).count > 0 %>
                 <li class="link-requests">
-                  <%= link_to "Friend Requests (#{current_user.received_requests.where(accepted: 0).count})", requests_path %>
+                  <%= link_to "好友请求 (#{current_user.received_requests.where(accepted: 0).count})", requests_path %>
                 </li>
             <% end %>
             <li class="link-edit">
-              <%= link_to 'Edit Account', edit_user_registration_path(current_user) %>
+              <%= link_to '编辑账号', edit_user_registration_path(current_user) %>
             </li>
             <li class="link-signout">
-              <%= link_to 'Sign Out', destroy_user_session_path, method: :delete %>
+              <%= link_to '登出', destroy_user_session_path, method: :delete %>
             </li>
           <% end %>
         </ul>

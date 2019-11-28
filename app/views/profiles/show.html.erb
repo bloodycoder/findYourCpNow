@@ -23,12 +23,12 @@
       <%= link_to "Accept Friend Request", request_path(id: current_user.received_requests.find_by(requester_id: @profile.user.id).id, request: { requester_id: @profile.user.id }), method: :put, class: "add-friend-button" %>
     <% elsif current_user.requesters.include?(@profile.user) %>
     <% elsif !current_user.requestees.include?(@profile.user) %>
-      <%= link_to fa_icon('user-plus', type: :solid, style: 'color:rgb(90, 90, 90)', text: "Add Friend"), requests_path(request: { requestee_id: @profile.user.id }), method: :post, class: "add-friend-button" %>
+      <%= link_to fa_icon('user-plus', type: :solid, style: 'color:rgb(90, 90, 90)', text: "添加好友"), requests_path(request: { requestee_id: @profile.user.id }), method: :post, class: "add-friend-button" %>
     <% end %>
   <% end %>
 
   <% if @profile.user == current_user %>
-    <%= link_to fa_icon('pencil-alt', type: :solid, style: 'color:rgb(90, 90, 90)', text: "Edit Your Profile"), edit_profile_path(current_user.profile), class: "edit-your-profile-button"%>
+    <%= link_to fa_icon('pencil-alt', type: :solid, style: 'color:rgb(90, 90, 90)', text: "编辑个人信息"), edit_profile_path(current_user.profile), class: "edit-your-profile-button"%>
   <% end %>
 
 </div>
@@ -37,19 +37,19 @@
 
 <div class="user-info-left">
   <p>
-    <strong>Date of Birth:</strong>
+    <strong>生日:</strong>
     <%= @profile.birthday %>
     <br/>
 
-    <strong>Gender:</strong>
+    <strong>性别:</strong>
     <%= @profile.gender %>
     <br/>
 
-    <strong>City:</strong>
+    <strong>城市:</strong>
     <%= @profile.location %>
     <br/>
 
-    <strong>About Me:</strong>
+    <strong>关于我:</strong>
     <%= @profile.bio %>
   </p>
 </div>
@@ -58,7 +58,7 @@
 
 <div class="friends">
   <% if @profile.user.friends.count > 0 %>
-    <h2><%= @profile.user.first_name %>'s friends:</h2>
+    <h2><%= @profile.user.first_name %>的朋友:</h2>
     <div class="friends-grid">
         <% @profile.user.friends.first(4).each do |friend| %>
           <div>
@@ -87,11 +87,11 @@
 
             <%= link_to "#{post.user.first_name}", post.user.profile, class: "user-name" %>
           </span>
-          <%= link_to distance_of_time_in_words(Time.now, post.created_at)+ ' ago', post, class: 'timestamp' %>
+          <%= link_to distance_of_time_in_words(Time.now, post.created_at)+ ' 之前', post, class: 'timestamp' %>
           <% if current_user.id == post.user_id %>
           <span class="edit-delete-post">
-            <%= link_to 'Edit Post', edit_post_path(post) %>
-            <%= link_to 'Delete', post, method: :delete, data: {confirm: "Are you sure?"} %>
+            <%= link_to '编辑帖子', edit_post_path(post) %>
+            <%= link_to '删除', post, method: :delete, data: {confirm: "你确定吗?"} %>
           </span>
           <% end %>
         </p>
@@ -106,14 +106,14 @@
           <% like = post.likes.where("user_id = ?", current_user.id) %>
           <% if like.empty? %>
           <%= button_to likes_path(like: {post_id: post.id} ), method: :post, class: "like-button" do %>
-            <%= fa_icon('thumbs-up', type: :regular, text: "Like") %>
+            <%= fa_icon('thumbs-up', type: :regular, text: "喜欢") %>
           <% end %>
           <% else %>
             <%= button_to like.first, method: :delete, class: "like-button unlike" do %>
-              <%= fa_icon('thumbs-up', type: :solid, text: "Like") %>
+              <%= fa_icon('thumbs-up', type: :solid, text: "喜欢") %>
             <% end %>
           <% end %>
-          <button class="comment-button"><i class="far fa-comment-alt"></i> Comment</button>
+          <button class="comment-button"><i class="far fa-comment-alt"></i>评论</button>
         </div>
 
         <% if post.likes.count > 0 %>
@@ -168,8 +168,8 @@
               </span>
               <% if current_user.id == comment.user_id %>
                 <span class="edit-delete-comment">
-                  <%= link_to 'Edit', edit_comment_path(comment) %>
-                  <%= link_to 'Delete', comment, method: :delete, data: {confirm: "Are you sure?"} %>
+                  <%= link_to '编辑', edit_comment_path(comment) %>
+                  <%= link_to '删除', comment, method: :delete, data: {confirm: "Are you sure?"} %>
                 </span>
               <% end %>
             </p>
@@ -184,12 +184,12 @@
 
           <%= f.text_area :content, class: "comment-field", placeholder: "Write a comment...", rows: "1"  %>
           <%= f.hidden_field :post_id, value: post.id %>
-          <%= f.submit "Comment" %>
+          <%= f.submit "评论" %>
         <% end %>
       </div>
     <% end %>
-    <%= link_to_previous_page @posts, 'Previous Page', class: "previous-page" %>
-    <%= link_to_next_page @posts, 'Next Page', class: "next-page" %>
+    <%= link_to_previous_page @posts, '前一页', class: "previous-page" %>
+    <%= link_to_next_page @posts, '后一页', class: "next-page" %>
   <% end %>
 </div>
 <!-- </div> -->

@@ -1,5 +1,5 @@
 <div class="comments-edit">
-<h2> Edit your comment on: </h2>
+<h2> 编辑你的评论: </h2>
 <div class="post">
 <p class="post-header">
   <span>
@@ -10,7 +10,7 @@
     <%= link_to "#{@comment.post.user.first_name}", @comment.post.user.profile, class: "user-name" %>
   </span>
 
-  <%= link_to distance_of_time_in_words(Time.now, @comment.post.created_at)+ ' ago', @comment.post, class: 'timestamp' %>
+  <%= link_to distance_of_time_in_words(Time.now, @comment.post.created_at)+ ' 之前', @comment.post, class: 'timestamp' %>
 </p>
 
 <p class="post-content">

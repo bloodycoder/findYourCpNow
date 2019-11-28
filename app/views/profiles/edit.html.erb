@@ -27,10 +27,10 @@
   <%= form_for @profile do |f| %>
 
 
-      <%= f.label :avatar, fa_icon('image', type: :solid, text: "Change Avatar", color: 'rgb(66, 103, 178)'), class: 'photo-label avatar-label' %>
+      <%= f.label :avatar, fa_icon('image', type: :solid, text: "替换头像", color: 'rgb(66, 103, 178)'), class: 'photo-label avatar-label' %>
       <%= f.file_field :avatar, class: 'post-photo profile-photo-select' %>
 
-      <%= f.label :cover, fa_icon('image', type: :solid, text: "Change Cover Photo", color: 'rgb(66, 103, 178)'), class: 'photo-label cover-photo-label' %>
+      <%= f.label :cover, fa_icon('image', type: :solid, text: "替换封面照片", color: 'rgb(66, 103, 178)'), class: 'photo-label cover-photo-label' %>
       <%= f.file_field :cover, class: 'post-photo cover-photo-select' %>
       <br/>
 

@@ -9,11 +9,11 @@
     <%= link_to "#{@post.user.first_name}", @post.user.profile, class: "user-name" %>
   </span>
 
-  <%= link_to distance_of_time_in_words(Time.now, @post.created_at)+ ' ago', @post, class: 'timestamp' %>
+  <%= link_to distance_of_time_in_words(Time.now, @post.created_at)+ ' 之前', @post, class: 'timestamp' %>
   <% if current_user.id == @post.user_id %>
     <span class="edit-delete-post">
-      <%= link_to 'Edit Post', edit_post_path(@post) %>
-      <%= link_to 'Delete', @post, method: :delete, data: {confirm: "Are you sure?"} %>
+      <%= link_to '编辑帖子', edit_post_path(@post) %>
+      <%= link_to '删除', @post, method: :delete, data: {confirm: "Are you sure?"} %>
     </span>
   <% end %>
 </p>
@@ -96,8 +96,8 @@
         </span>
         <% if current_user.id == comment.user_id %>
           <span class="edit-delete-comment">
-            <%= link_to 'Edit', edit_comment_path(comment) %>
-            <%= link_to 'Delete', comment, method: :delete, data: {confirm: "Are you sure?"} %>
+            <%= link_to '编辑', edit_comment_path(comment) %>
+            <%= link_to '删除', comment, method: :delete, data: {confirm: "Are you sure?"} %>
           </span>
         <% end %>
       </p>
@@ -111,7 +111,7 @@
     <% end %>
 
     <%= c.text_area :content, class: "comment-field", placeholder: "Write a comment...", rows: "1" %>
-    <%= c.submit "Comment" %>
+    <%= c.submit "评论" %>
     <%= c.hidden_field :post_id, value: @post.id %>
   <% end %>
 
