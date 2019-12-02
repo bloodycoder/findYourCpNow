@@ -38,9 +38,9 @@
         <%= f.label :birthday, "生日" %>
         <%= f.date_field :birthday, autocomplete: "off" %>
         <br/>
-
+        
         <%= f.label :gender, "性别" %>
-        <%= f.text_field :gender, autocomplete: "off" %>
+        <%= f.select(:gender, [['男', '男'], ['女', '女']]) %>
         <br/>
 
         <%= f.label :location, "城市" %>
