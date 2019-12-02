@@ -134,7 +134,7 @@
         <%= image_tag current_user.profile.profile_photo('tac'), class: 'tac-image new-comment-image' %>
       <% end %>
 
-      <%= f.text_area :content, class: "comment-field", placeholder: "Write a comment...", rows: "1" %>
+      <%= f.text_area :content, class: "comment-field", placeholder: "发表评论...", rows: "1" %>
       <%= f.hidden_field :post_id, value: post.id %>
       <%= f.submit "评论" %>
     <% end %>
