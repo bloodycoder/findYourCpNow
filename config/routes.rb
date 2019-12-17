@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'chatlist/chat'
   # get 'profiles/show'
   # get 'profiles/edit'
   root to: 'posts#index'
