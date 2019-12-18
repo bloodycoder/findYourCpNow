@@ -1,0 +1,33 @@
+<div class="panel with-nav-tabs panel-info">
+  <div class="panel-heading">
+    <h1>All My Friends</h1>
+  </div>
+  <div class="panel-body" id="tab-panel-body">
+    <div class="tab-content">
+      <div class="tab-pane fade in" id="contact-tab">
+        <ul class="list-group">
+          <% @friends.each do |friend| %>
+            <li class="list-group-item" style="padding: 0px; margin-bottom: 0px;">
+                <button class="btn btn-default btn-block" data-toggle="collapse" data-target="#user-<%= friend.id %>" id="tab-contact-default">
+                  <%= image_tag friend.profile.profile_photo('thumb'), class: "img-sm" %>
+                  <div class="text-muted">
+                    <%= friend.name %>
+                  </div>
+                </button>
+
+              <div id="user-<%= friend.id %>" class="collapse">
+                  <%= link_to(friend.profile) do %>
+                      <i class="fa fa-angle-right"></i> 发起聊天
+                  <% end %>
+                  <%= link_to(friend.profile) do %>
+                      <i class="fa fa-angle-right"></i> 用户详情
+                  <% end %>
+                </div>
+            </li>
+           <% end %>
+        </ul>
+    </div>
+  </div>
+</div>
+</div>
+

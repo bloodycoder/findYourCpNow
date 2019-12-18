@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
   resources :room_messages
   resources :rooms
+=======
   get 'chatlist/chat'
+>>>>>>> 966217dd51b12ec2358418e55c5f50e9f1b21450
   # get 'profiles/show'
   # get 'profiles/edit'
   root to: 'posts#index'

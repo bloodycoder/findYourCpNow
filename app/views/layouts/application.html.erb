@@ -31,6 +31,9 @@
             <li class="link-home">
               <%= link_to '朋友圈', root_url %>
             </li>
+            <li class="link-all-friends">
+              <%= link_to '聊天列表', chatlist_chat_path %>
+            </li>
             <% if current_user.received_requests.where(accepted: 0).count > 0 %>
                 <li class="link-requests">
                   <%= link_to "好友请求 (#{current_user.received_requests.where(accepted: 0).count})", requests_path %>
