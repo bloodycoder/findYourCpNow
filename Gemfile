@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'https://gems.ruby-china.com'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.3.1'
@@ -27,6 +27,7 @@ gem 'kaminari'
 # gem 'omniauth-twitter'
 gem 'omniauth-facebook'
 gem 'omniauth-github'
+gem 'jquery-rails'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
@@ -47,13 +48,14 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
+gem 'redis'
 # Use Faker to create database seeds
 gem 'faker'
 
 # Performance profiling
 gem 'rails-perftest'
 gem 'ruby-prof'
+gem 'simple_form'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
