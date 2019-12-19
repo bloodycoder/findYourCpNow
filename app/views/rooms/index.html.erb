@@ -40,7 +40,7 @@
                                    class: 'chat-input'
                                  } %>
         <div class="input-group-append">
-          <%= form.submit "Send", class: 'btn btn-primary chat-input' %>
+          <%= form.submit "发送", class: 'btn btn-primary chat-input' %>
         </div>
       </div>
 
@@ -68,3 +68,38 @@
     </div>
   </div>
 </div>
+<script>
+$(function() {
+    $('#new_room_message').on('ajax:success', function(a, b,c ) {
+      $(this).find('input[type="text"]').val('');
+      document.getElementById("room_message_message").value="";
+    });
+  });
+
+$(function() {
+    $('[data-channel-subscribe="room"]').each(function(index, element) {
+      var $element = $(element),
+          room_id = $element.data('room-id')
+          messageTemplate = $('[data-role="message-template"]');
+  
+      $element.animate({ scrollTop: $element.prop("scrollHeight")}, 1000)        
+  
+      App.cable.subscriptions.create(
+        {
+          channel: "RoomChannel",
+          room: room_id
+        },
+        {
+          received: function(data) {
+            var content = messageTemplate.children().clone(true, true);
+            content.find('[data-role="user-avatar"]').attr('src', data.user_avatar_url);
+            content.find('[data-role="message-text"]').text(data.message);
+            content.find('[data-role="message-date"]').text(data.updated_at);
+            $element.append(content);
+            $element.animate({ scrollTop: $element.prop("scrollHeight")}, 1000);
+          }
+        }
+      );
+    });
+  });
+</script>
