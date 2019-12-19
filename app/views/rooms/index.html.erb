@@ -11,11 +11,14 @@
           <div class="row no-gutters">
             <div class="col-auto text-center">
               <%= image_tag room_message.user.profile.profile_photo('tac'), class: 'tac-image' %>
+               <%= room_message.user.first_name %>
+               <%= room_message.user.last_name %>
             </div>
 
             <div class="col">
               <div class="message-content">
                 <p class="mb-1">
+                 
                   <%= room_message.message %>
                 </p>
 
@@ -40,7 +43,7 @@
                                    class: 'chat-input'
                                  } %>
         <div class="input-group-append">
-          <%= form.submit "发送", class: 'btn btn-primary chat-input' %>
+          <%= form.submit "发送", class: 'btn btn-primary chat-input2' %>
         </div>
       </div>
 

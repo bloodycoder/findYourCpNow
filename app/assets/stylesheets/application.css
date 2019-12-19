@@ -354,8 +354,11 @@ input[type=submit] {
   margin-left: 18px;
 }
 .chatbox{
-  position: relative;
-  margin-top: 220px;
+  height: 100%;
+  width:500px;
+  position: absolute;
+  bottom: -50px;
+  right: 19px;
 }
 .chat {
   border: 1px solid lighten($secondary, 40%);
@@ -365,13 +368,30 @@ input[type=submit] {
   overflow-y: auto;
 }
 
+.input-group-append{
+  border-top:1px;
+  width:500px;
+}
+.input-group{
+  width:500px;
+}
 .chat-input {
   border-top: 0 none;
   border-radius: 0 0 5px 5px;
+  width:495px;
+}
+.no-gutters{
+  background:#34495e; color:#FFF;
+  border-radius:5px;
+}
+.col-auto{
+  background:#f39c12; color:#FFF;
+  border-radius:5px;
 }
 .chat-message-container {
-  padding: 5px;
-
+  background:#3498db; color:#FFF;
+  padding: 4px;
+  
   .avatar {
     margin: 5px;
   }
