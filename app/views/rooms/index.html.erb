@@ -10,7 +10,7 @@
         <div class="chat-message-container">
           <div class="row no-gutters">
             <div class="col-auto text-center">
-              <img src="<%= room_message.user.gravatar_url %>" class="avatar" alt="">
+              <%= image_tag room_message.user.profile.profile_photo('tac'), class: 'tac-image' %>
             </div>
 
             <div class="col">
