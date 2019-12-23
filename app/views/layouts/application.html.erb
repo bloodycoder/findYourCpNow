@@ -32,7 +32,7 @@
               <%= link_to '朋友圈', root_url %>
             </li>
             <li class="link-all-friends">
-              <%= link_to '聊天列表', chatroom_path %>
+              <%= link_to '聊天室', chatroom_path %>
             </li>
             <% if current_user.received_requests.where(accepted: 0).count > 0 %>
                 <li class="link-requests">
