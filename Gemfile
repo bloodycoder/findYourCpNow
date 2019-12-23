@@ -30,7 +30,7 @@ gem 'omniauth-github'
 gem 'jquery-rails'
 
 # Use Puma as the app server
-gem 'puma', '~> 3.12'
+gem 'puma'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -56,7 +56,6 @@ gem 'faker'
 gem 'rails-perftest'
 gem 'ruby-prof'
 gem 'simple_form'
-
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
@@ -82,12 +81,5 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
-group :test do
-  # Adds support for Capybara system testing and selenium driver
-  gem 'capybara', '>= 2.15', '< 4.0'
-  gem 'selenium-webdriver'
-  # Easy installation and use of chromedriver to run system tests with Chrome
-  gem 'chromedriver-helper'
-end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

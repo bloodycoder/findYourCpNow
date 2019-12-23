@@ -30,6 +30,9 @@
   <% if @profile.user == current_user %>
     <%= link_to fa_icon('pencil-alt', type: :solid, style: 'color:rgb(90, 90, 90)', text: "编辑个人信息"), edit_profile_path(current_user.profile), class: "edit-your-profile-button"%>
   <% end %>
+    <% if @profile.user != current_user %>
+    <%= link_to fa_icon('pencil-alt', type: :solid, style: 'color:rgb(90, 90, 90)', text: "发起聊天"), room_path(chat:{user2_id:@profile.user}), class: "edit-your-profile-button"%>
+  <% end %>
 
 </div>
 
