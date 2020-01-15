@@ -32,8 +32,28 @@
               <%= link_to '朋友圈', root_url %>
             </li>
             <li class="link-all-friends">
-              <%= link_to '聊天室', chatroom_path %>
+              <%= link_to '公共聊天室', chatroom_path %>
             </li>
+
+            <% User.all.each do |user| %>
+              <% if user.id < current_user.id %>
+                <% name_root = user.id.to_s + '_' + current_user.id.to_s%>
+                <% if (Room.find_by(name:name_root) != nil) %>
+                  <li class="link-rooms">
+                    <%= link_to "私人消息 (#{user.last_name})", room_path(chat:{user2_id:user}) %>
+                  </li>
+                <% end %>
+              <% end %>
+              <% if user.id > current_user.id %>
+                <% name_root = current_user.id.to_s + '_' + user.id.to_s%>
+                <% if (Room.find_by(name:name_root) != nil) %>
+                  <li class="link-rooms">
+                    <%= link_to "私人消息 (#{user.last_name})", room_path(chat:{user2_id:user}) %>
+                  </li>
+                <% end %>
+              <% end %>
+            <% end %>
+
             <% if current_user.received_requests.where(accepted: 0).count > 0 %>
                 <li class="link-requests">
                   <%= link_to "好友请求 (#{current_user.received_requests.where(accepted: 0).count})", requests_path %>
