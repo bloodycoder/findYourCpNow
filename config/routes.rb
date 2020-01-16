@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  
+  get '/privateroom',to:"rooms#one"
   resources :room_messages
   resources :rooms
  

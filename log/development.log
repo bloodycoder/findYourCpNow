@@ -14140,3 +14140,1169 @@ app/views/layouts/application.html.erb:53: syntax error, unexpected keyword_end,
 app/views/layouts/application.html.erb:68: syntax error, unexpected keyword_end, expecting ')'
 app/views/layouts/application.html.erb:88: syntax error, unexpected keyword_ensure, expecting ')'
 app/views/layouts/application.html.erb:90: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/profiles/1" for 127.0.0.1 at 2020-01-16 10:18:30 +0800
+  
+PG::ConnectionBad (FATAL:  could not write init file
+):
+  
+pg (1.0.0) lib/pg.rb:56:in `initialize'
+pg (1.0.0) lib/pg.rb:56:in `new'
+pg (1.0.0) lib/pg.rb:56:in `connect'
+activerecord (5.2.0) lib/active_record/connection_adapters/postgresql_adapter.rb:684:in `connect'
+activerecord (5.2.0) lib/active_record/connection_adapters/postgresql_adapter.rb:215:in `initialize'
+activerecord (5.2.0) lib/active_record/connection_adapters/postgresql_adapter.rb:40:in `new'
+activerecord (5.2.0) lib/active_record/connection_adapters/postgresql_adapter.rb:40:in `postgresql_connection'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:809:in `new_connection'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `checkout_new_connection'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:832:in `try_to_checkout_new_connection'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:793:in `acquire_connection'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:521:in `checkout'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:380:in `connection'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:1008:in `retrieve_connection'
+activerecord (5.2.0) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.0) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.0) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.0) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2020-01-16 10:18:51 +0800
+  
+PG::ConnectionBad (FATAL:  could not write init file
+):
+  
+pg (1.0.0) lib/pg.rb:56:in `initialize'
+pg (1.0.0) lib/pg.rb:56:in `new'
+pg (1.0.0) lib/pg.rb:56:in `connect'
+activerecord (5.2.0) lib/active_record/connection_adapters/postgresql_adapter.rb:684:in `connect'
+activerecord (5.2.0) lib/active_record/connection_adapters/postgresql_adapter.rb:215:in `initialize'
+activerecord (5.2.0) lib/active_record/connection_adapters/postgresql_adapter.rb:40:in `new'
+activerecord (5.2.0) lib/active_record/connection_adapters/postgresql_adapter.rb:40:in `postgresql_connection'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:809:in `new_connection'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `checkout_new_connection'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:832:in `try_to_checkout_new_connection'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:793:in `acquire_connection'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:521:in `checkout'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:380:in `connection'
+activerecord (5.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:1008:in `retrieve_connection'
+activerecord (5.2.0) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.0) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.0) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.0) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/profiles/1" for 127.0.0.1 at 2020-01-16 10:29:35 +0800
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 401 Unauthorized in 23ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-01-16 10:29:37 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (488.1ms)
+Completed 200 OK in 771ms (Views: 710.9ms | ActiveRecord: 12.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2020-01-16 10:29:46 +0800
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pdurN3VjI6kg6nOvLFlK1ESJQrWuS/2gULAxZDkXlnWfv86SBaZHhI8LidoUs8DcPOSk5oPe5/4IdMX/xv7NPA==", "user"=>{"email"=>"wangyicheng215@mails.ucas.ac.cn", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"提交"}
+  [1m[36mUser Load (14.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "wangyicheng215@mails.ucas.ac.cn"], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Update (1.4ms)[0m  [1m[33mUPDATE "users" SET "remember_created_at" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["remember_created_at", "2020-01-16 10:29:47.005501"], ["updated_at", "2020-01-16 10:29:47.006914"], ["id", 1]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[35m (2.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Update (0.3ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = $1, "current_sign_in_at" = $2, "last_sign_in_at" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["sign_in_count", 16], ["current_sign_in_at", "2020-01-16 10:29:47.019282"], ["last_sign_in_at", "2020-01-16 02:38:58.300786"], ["updated_at", "2020-01-16 10:29:47.020115"], ["id", 1]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/profiles/1
+Completed 302 Found in 300ms (ActiveRecord: 20.0ms)
+
+
+Started GET "/profiles/1" for 127.0.0.1 at 2020-01-16 10:29:47 +0800
+Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mProfile Load (2.1ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/profiles_controller.rb:4
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/profiles_controller.rb:5
+  Rendering profiles/show.html.erb within layouts/application
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  ↳ app/views/profiles/show.html.erb:31
+  [1m[35m (3.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" INNER JOIN "requests" ON "users"."id" = "requests"."requestee_id" WHERE "requests"."requester_id" = $1 AND "requests"."accepted" = $2[0m  [["requester_id", 1], ["accepted", 1]]
+  ↳ app/views/profiles/show.html.erb:63
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" INNER JOIN "requests" ON "users"."id" = "requests"."requestee_id" WHERE "requests"."requester_id" = $1 AND "requests"."accepted" = $2 ORDER BY "users"."id" ASC LIMIT $3[0m  [["requester_id", 1], ["accepted", 1], ["LIMIT", 4]]
+  ↳ app/views/profiles/show.html.erb:66
+  [1m[36mProfile Load (1.0ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ app/views/profiles/show.html.erb:68
+  [1m[36mProfile Load (2.6ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 3], ["LIMIT", 1]]
+  ↳ app/views/profiles/show.html.erb:68
+  [1m[36mProfile Load (2.2ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 4], ["LIMIT", 1]]
+  ↳ app/views/profiles/show.html.erb:68
+  [1m[35m (2.8ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT  1 AS one FROM "posts" WHERE "posts"."user_id" = $1 ORDER BY "posts"."created_at" DESC LIMIT $2 OFFSET $3) subquery_for_count[0m  [["user_id", 1], ["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/profiles/show.html.erb:82
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."user_id" = $1 ORDER BY "posts"."created_at" DESC LIMIT $2 OFFSET $3[0m  [["user_id", 1], ["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/profiles/show.html.erb:83
+  [1m[36mLike Exists (3.2ms)[0m  [1m[34mSELECT  1 AS one FROM "likes" WHERE "likes"."post_id" = $1 AND (user_id = 1) LIMIT $2[0m  [["post_id", 1], ["LIMIT", 1]]
+  ↳ app/views/profiles/show.html.erb:110
+  [1m[36mLike Load (0.3ms)[0m  [1m[34mSELECT  "likes".* FROM "likes" WHERE "likes"."post_id" = $1 AND (user_id = 1) ORDER BY "likes"."created_at" DESC LIMIT $2[0m  [["post_id", 1], ["LIMIT", 1]]
+  ↳ app/views/profiles/show.html.erb:115
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "likes" WHERE "likes"."post_id" = $1[0m  [["post_id", 1]]
+  ↳ app/views/profiles/show.html.erb:122
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "likes" WHERE "likes"."post_id" = $1[0m  [["post_id", 1]]
+  ↳ app/views/profiles/show.html.erb:126
+  [1m[36mLike Load (0.2ms)[0m  [1m[34mSELECT  "likes".* FROM "likes" WHERE "likes"."post_id" = $1 ORDER BY "likes"."created_at" DESC LIMIT $2[0m  [["post_id", 1], ["LIMIT", 1]]
+  ↳ app/views/profiles/show.html.erb:128
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/profiles/show.html.erb:128
+  [1m[36mCACHE Profile Load (0.0ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  ↳ app/views/profiles/show.html.erb:130
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = $1[0m  [["post_id", 1]]
+  ↳ app/views/profiles/show.html.erb:160
+  Rendered profiles/show.html.erb within layouts/application (164.4ms)
+  [1m[36mUser Load (4.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/layouts/application.html.erb:38
+  [1m[36mRoom Load (3.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_5"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:49
+  [1m[36mRoom Load (1.4ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_3"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:49
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_2"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:49
+  [1m[36mRoom Load (1.3ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_4"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:49
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "requests" WHERE "requests"."requestee_id" = $1 AND "requests"."accepted" = $2[0m  [["requestee_id", 1], ["accepted", 0]]
+  ↳ app/views/layouts/application.html.erb:57
+Completed 200 OK in 476ms (Views: 297.4ms | ActiveRecord: 73.2ms)
+
+
+Started GET "/users/index" for 127.0.0.1 at 2020-01-16 10:30:00 +0800
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (id != 1) LIMIT $1 OFFSET $2[0m  [["LIMIT", 12], ["OFFSET", 0]]
+  ↳ app/views/users/index.html.erb:6
+  [1m[36mProfile Load (0.2ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 5], ["LIMIT", 1]]
+  ↳ app/views/users/index.html.erb:9
+  [1m[36mUser Load (5.5ms)[0m  [1m[34mSELECT "users".* FROM "users" INNER JOIN "requests" ON "users"."id" = "requests"."requester_id" WHERE "requests"."requestee_id" = $1 AND (requests.accepted = 0)[0m  [["requestee_id", 1]]
+  ↳ app/views/users/index.html.erb:17
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" INNER JOIN "requests" ON "users"."id" = "requests"."requester_id" WHERE "requests"."requestee_id" = $1 AND "users"."id" = $2 LIMIT $3[0m  [["requestee_id", 1], ["id", 5], ["LIMIT", 1]]
+  ↳ app/views/users/index.html.erb:19
+  [1m[36mUser Exists (3.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" INNER JOIN "requests" ON "users"."id" = "requests"."requestee_id" WHERE "requests"."requester_id" = $1 AND "users"."id" = $2 LIMIT $3[0m  [["requester_id", 1], ["id", 5], ["LIMIT", 1]]
+  ↳ app/views/users/index.html.erb:20
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 3], ["LIMIT", 1]]
+  ↳ app/views/users/index.html.erb:9
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" INNER JOIN "requests" ON "users"."id" = "requests"."requester_id" WHERE "requests"."requestee_id" = $1 AND (requests.accepted = 0)[0m  [["requestee_id", 1]]
+  ↳ app/views/users/index.html.erb:17
+  [1m[36mUser Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "users" INNER JOIN "requests" ON "users"."id" = "requests"."requester_id" WHERE "requests"."requestee_id" = $1 AND "users"."id" = $2 LIMIT $3[0m  [["requestee_id", 1], ["id", 3], ["LIMIT", 1]]
+  ↳ app/views/users/index.html.erb:19
+  [1m[36mProfile Load (0.2ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ app/views/users/index.html.erb:9
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" INNER JOIN "requests" ON "users"."id" = "requests"."requester_id" WHERE "requests"."requestee_id" = $1 AND (requests.accepted = 0)[0m  [["requestee_id", 1]]
+  ↳ app/views/users/index.html.erb:17
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" INNER JOIN "requests" ON "users"."id" = "requests"."requester_id" WHERE "requests"."requestee_id" = $1 AND "users"."id" = $2 LIMIT $3[0m  [["requestee_id", 1], ["id", 2], ["LIMIT", 1]]
+  ↳ app/views/users/index.html.erb:19
+  [1m[36mProfile Load (0.6ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 4], ["LIMIT", 1]]
+  ↳ app/views/users/index.html.erb:9
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" INNER JOIN "requests" ON "users"."id" = "requests"."requester_id" WHERE "requests"."requestee_id" = $1 AND (requests.accepted = 0)[0m  [["requestee_id", 1]]
+  ↳ app/views/users/index.html.erb:17
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" INNER JOIN "requests" ON "users"."id" = "requests"."requester_id" WHERE "requests"."requestee_id" = $1 AND "users"."id" = $2 LIMIT $3[0m  [["requestee_id", 1], ["id", 4], ["LIMIT", 1]]
+  ↳ app/views/users/index.html.erb:19
+  Rendered users/index.html.erb within layouts/application (51.7ms)
+  [1m[36mProfile Load (0.8ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:26
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/layouts/application.html.erb:38
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_5"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:49
+Completed 500 Internal Server Error in 181ms (ActiveRecord: 15.6ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :chat=>{:user2_id=>#<User id: 5, first_name: "Xie", last_name: "Yi", email: "xieyi19@mails.ucas.ac.cn", created_at: "2020-01-15 14:45:33", updated_at: "2020-01-15 18:43:51", provider: nil, uid: nil, name: nil, image: nil>}, :controller=>"rooms"}, missing required keys: [:id]):
+    48:                 <% name_root = current_user.id.to_s + '_' + user.id.to_s%>
+    49:                 <% if (Room.find_by(name:name_root) != nil) %>
+    50:                   <li class="link-rooms">
+    51:                     <%= link_to "私人消息 (#{user.last_name})", room_path(chat:{user2_id:user}) %>
+    52:                   </li>
+    53:                 <% end %>
+    54:               <% end %>
+  
+app/views/layouts/application.html.erb:51:in `block in _app_views_layouts_application_html_erb__2677499967914987066_70259747226900'
+app/views/layouts/application.html.erb:38:in `_app_views_layouts_application_html_erb__2677499967914987066_70259747226900'
+Started GET "/index" for 127.0.0.1 at 2020-01-16 10:30:24 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/profiles/1" for 127.0.0.1 at 2020-01-16 10:31:16 +0800
+Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mProfile Load (0.2ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/profiles_controller.rb:4
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/profiles_controller.rb:5
+  Rendering profiles/show.html.erb within layouts/application
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  ↳ app/views/profiles/show.html.erb:31
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" INNER JOIN "requests" ON "users"."id" = "requests"."requestee_id" WHERE "requests"."requester_id" = $1 AND "requests"."accepted" = $2[0m  [["requester_id", 1], ["accepted", 1]]
+  ↳ app/views/profiles/show.html.erb:63
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" INNER JOIN "requests" ON "users"."id" = "requests"."requestee_id" WHERE "requests"."requester_id" = $1 AND "requests"."accepted" = $2 ORDER BY "users"."id" ASC LIMIT $3[0m  [["requester_id", 1], ["accepted", 1], ["LIMIT", 4]]
+  ↳ app/views/profiles/show.html.erb:66
+  [1m[36mProfile Load (1.7ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ app/views/profiles/show.html.erb:68
+  [1m[36mProfile Load (0.2ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 3], ["LIMIT", 1]]
+  ↳ app/views/profiles/show.html.erb:68
+  [1m[36mProfile Load (0.2ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 4], ["LIMIT", 1]]
+  ↳ app/views/profiles/show.html.erb:68
+  [1m[35m (2.8ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT  1 AS one FROM "posts" WHERE "posts"."user_id" = $1 ORDER BY "posts"."created_at" DESC LIMIT $2 OFFSET $3) subquery_for_count[0m  [["user_id", 1], ["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/profiles/show.html.erb:82
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."user_id" = $1 ORDER BY "posts"."created_at" DESC LIMIT $2 OFFSET $3[0m  [["user_id", 1], ["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/profiles/show.html.erb:83
+  [1m[36mLike Exists (2.2ms)[0m  [1m[34mSELECT  1 AS one FROM "likes" WHERE "likes"."post_id" = $1 AND (user_id = 1) LIMIT $2[0m  [["post_id", 1], ["LIMIT", 1]]
+  ↳ app/views/profiles/show.html.erb:110
+  [1m[36mLike Load (0.3ms)[0m  [1m[34mSELECT  "likes".* FROM "likes" WHERE "likes"."post_id" = $1 AND (user_id = 1) ORDER BY "likes"."created_at" DESC LIMIT $2[0m  [["post_id", 1], ["LIMIT", 1]]
+  ↳ app/views/profiles/show.html.erb:115
+  [1m[35m (4.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "likes" WHERE "likes"."post_id" = $1[0m  [["post_id", 1]]
+  ↳ app/views/profiles/show.html.erb:122
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "likes" WHERE "likes"."post_id" = $1[0m  [["post_id", 1]]
+  ↳ app/views/profiles/show.html.erb:126
+  [1m[36mLike Load (0.3ms)[0m  [1m[34mSELECT  "likes".* FROM "likes" WHERE "likes"."post_id" = $1 ORDER BY "likes"."created_at" DESC LIMIT $2[0m  [["post_id", 1], ["LIMIT", 1]]
+  ↳ app/views/profiles/show.html.erb:128
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/profiles/show.html.erb:128
+  [1m[36mCACHE Profile Load (0.0ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  ↳ app/views/profiles/show.html.erb:130
+  [1m[35m (5.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = $1[0m  [["post_id", 1]]
+  ↳ app/views/profiles/show.html.erb:160
+  Rendered profiles/show.html.erb within layouts/application (53.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/layouts/application.html.erb:38
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_5"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:49
+  [1m[36mRoom Load (2.6ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_3"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:49
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_2"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:49
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_4"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:49
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "requests" WHERE "requests"."requestee_id" = $1 AND "requests"."accepted" = $2[0m  [["requestee_id", 1], ["accepted", 0]]
+  ↳ app/views/layouts/application.html.erb:57
+Completed 200 OK in 182ms (Views: 147.3ms | ActiveRecord: 29.4ms)
+
+
+Started GET "/rooms/1?chat%5Buser2_id%5D=5" for 127.0.0.1 at 2020-01-16 10:31:24 +0800
+Processing by RoomsController#show as HTML
+  Parameters: {"chat"=>{"user2_id"=>"5"}, "id"=>"1"}
+  [1m[36mUser Load (2.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mRoom Load (0.3ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_5"], ["LIMIT", 1]]
+  ↳ app/controllers/rooms_controller.rb:20
+  Rendering rooms/index.html.erb within layouts/application
+  [1m[36mRoomMessage Load (8.5ms)[0m  [1m[34mSELECT "room_messages".* FROM "room_messages" WHERE "room_messages"."room_id" = $1[0m  [["room_id", 7]]
+  ↳ app/views/rooms/index.html.erb:7
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IN ($1, $2)[0m  [["id", 5], ["id", 1]]
+  ↳ app/views/rooms/index.html.erb:7
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 5], ["LIMIT", 1]]
+  ↳ app/views/rooms/index.html.erb:11
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  ↳ app/views/rooms/index.html.erb:11
+  Rendered rooms/index.html.erb within layouts/application (132.6ms)
+  [1m[36mCACHE Profile Load (0.0ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:26
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/layouts/application.html.erb:38
+  [1m[36mCACHE Room Load (0.0ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_5"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:49
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_3"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:49
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_2"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:49
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_4"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:49
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "requests" WHERE "requests"."requestee_id" = $1 AND "requests"."accepted" = $2[0m  [["requestee_id", 1], ["accepted", 0]]
+  ↳ app/views/layouts/application.html.erb:57
+Completed 200 OK in 284ms (Views: 236.7ms | ActiveRecord: 24.1ms)
+
+
+Started GET "/cable" for 127.0.0.1 at 2020-01-16 10:31:25 +0800
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2020-01-16 10:31:25 +0800
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/channels/application_cable/connection.rb:13
+Registered connection (Z2lkOi8vY2xvbmUtYm9vay9Vc2VyLzE)
+  [1m[36mRoom Load (0.3ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/channels/room_channel.rb:3
+RoomChannel is transmitting the subscription confirmation
+RoomChannel is streaming from room:Z2lkOi8vY2xvbmUtYm9vay9Sb29tLzc
+Started GET "/rooms/1?chat%5Buser2_id%5D=3" for 127.0.0.1 at 2020-01-16 10:31:27 +0800
+Processing by RoomsController#show as HTML
+  Parameters: {"chat"=>{"user2_id"=>"3"}, "id"=>"1"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_3"], ["LIMIT", 1]]
+  ↳ app/controllers/rooms_controller.rb:20
+  Rendering rooms/index.html.erb within layouts/application
+  [1m[36mRoomMessage Load (3.6ms)[0m  [1m[34mSELECT "room_messages".* FROM "room_messages" WHERE "room_messages"."room_id" = $1[0m  [["room_id", 6]]
+  ↳ app/views/rooms/index.html.erb:7
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1[0m  [["id", 1]]
+  ↳ app/views/rooms/index.html.erb:7
+  [1m[36mProfile Load (0.2ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  ↳ app/views/rooms/index.html.erb:11
+  Rendered rooms/index.html.erb within layouts/application (24.5ms)
+  [1m[36mCACHE Profile Load (0.0ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:26
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/layouts/application.html.erb:38
+  [1m[36mRoom Load (1.9ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_5"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:49
+  [1m[36mCACHE Room Load (0.0ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_3"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:49
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_2"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:49
+  [1m[36mRoom Load (0.3ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_4"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:49
+  [1m[35m (6.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "requests" WHERE "requests"."requestee_id" = $1 AND "requests"."accepted" = $2[0m  [["requestee_id", 1], ["accepted", 0]]
+  ↳ app/views/layouts/application.html.erb:57
+Completed 200 OK in 143ms (Views: 123.5ms | ActiveRecord: 14.0ms)
+
+
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/channels/room_channel.rb:3
+RoomChannel is transmitting the subscription confirmation
+RoomChannel is streaming from room:Z2lkOi8vY2xvbmUtYm9vay9Sb29tLzY
+Started GET "/rooms/1?chat%5Buser2_id%5D=2" for 127.0.0.1 at 2020-01-16 10:31:28 +0800
+Processing by RoomsController#show as HTML
+  Parameters: {"chat"=>{"user2_id"=>"2"}, "id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_2"], ["LIMIT", 1]]
+  ↳ app/controllers/rooms_controller.rb:20
+  Rendering rooms/index.html.erb within layouts/application
+  [1m[36mRoomMessage Load (0.3ms)[0m  [1m[34mSELECT "room_messages".* FROM "room_messages" WHERE "room_messages"."room_id" = $1[0m  [["room_id", 5]]
+  ↳ app/views/rooms/index.html.erb:7
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1[0m  [["id", 1]]
+  ↳ app/views/rooms/index.html.erb:7
+  [1m[36mProfile Load (0.2ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  ↳ app/views/rooms/index.html.erb:11
+  Rendered rooms/index.html.erb within layouts/application (23.8ms)
+  [1m[36mCACHE Profile Load (0.0ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:26
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/layouts/application.html.erb:38
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_5"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:49
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_3"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:49
+  [1m[36mCACHE Room Load (0.0ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_2"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:49
+  [1m[36mRoom Load (1.0ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_4"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:49
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "requests" WHERE "requests"."requestee_id" = $1 AND "requests"."accepted" = $2[0m  [["requestee_id", 1], ["accepted", 0]]
+  ↳ app/views/layouts/application.html.erb:57
+Completed 200 OK in 137ms (Views: 127.6ms | ActiveRecord: 5.8ms)
+
+
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/channels/room_channel.rb:3
+RoomChannel is transmitting the subscription confirmation
+RoomChannel is streaming from room:Z2lkOi8vY2xvbmUtYm9vay9Sb29tLzU
+Started GET "/rooms/1?chat%5Buser2_id%5D=4" for 127.0.0.1 at 2020-01-16 10:31:30 +0800
+Processing by RoomsController#show as HTML
+  Parameters: {"chat"=>{"user2_id"=>"4"}, "id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_4"], ["LIMIT", 1]]
+  ↳ app/controllers/rooms_controller.rb:20
+  Rendering rooms/index.html.erb within layouts/application
+  [1m[36mRoomMessage Load (3.9ms)[0m  [1m[34mSELECT "room_messages".* FROM "room_messages" WHERE "room_messages"."room_id" = $1[0m  [["room_id", 10]]
+  ↳ app/views/rooms/index.html.erb:7
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1[0m  [["id", 1]]
+  ↳ app/views/rooms/index.html.erb:7
+  [1m[36mProfile Load (2.2ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  ↳ app/views/rooms/index.html.erb:11
+  Rendered rooms/index.html.erb within layouts/application (18.8ms)
+  [1m[36mCACHE Profile Load (0.0ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:26
+  [1m[36mUser Load (2.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/layouts/application.html.erb:38
+  [1m[36mRoom Load (3.5ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_5"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:49
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_3"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:49
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_2"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:49
+  [1m[36mCACHE Room Load (0.0ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_4"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:49
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "requests" WHERE "requests"."requestee_id" = $1 AND "requests"."accepted" = $2[0m  [["requestee_id", 1], ["accepted", 0]]
+  ↳ app/views/layouts/application.html.erb:57
+Completed 200 OK in 144ms (Views: 125.3ms | ActiveRecord: 13.9ms)
+
+
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/channels/room_channel.rb:3
+RoomChannel is transmitting the subscription confirmation
+RoomChannel is streaming from room:Z2lkOi8vY2xvbmUtYm9vay9Sb29tLzEw
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2020-01-16 10:31:40 +0800
+RoomChannel stopped streaming from room:Z2lkOi8vY2xvbmUtYm9vay9Sb29tLzc
+RoomChannel stopped streaming from room:Z2lkOi8vY2xvbmUtYm9vay9Sb29tLzY
+RoomChannel stopped streaming from room:Z2lkOi8vY2xvbmUtYm9vay9Sb29tLzU
+RoomChannel stopped streaming from room:Z2lkOi8vY2xvbmUtYm9vay9Sb29tLzEw
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2020-01-16 10:31:40 +0800
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"miV4Q+82wQ38k+CLKZhltjB7aKv8Z49pxF6YMbQbtWfcWiot8wI7Q/9er+7kF+Y1NSxsmnPTBBsOUlCtr9emlQ=="}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Update (2.9ms)[0m  [1m[33mUPDATE "users" SET "remember_created_at" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["remember_created_at", nil], ["updated_at", "2020-01-16 10:31:40.065361"], ["id", 1]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[35m (2.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Completed 302 Found in 13ms (ActiveRecord: 5.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-16 10:31:40 +0800
+Processing by PostsController#index as HTML
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-01-16 10:31:40 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 116ms (Views: 114.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2020-01-16 10:31:43 +0800
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hFK61CoOleDLWDCsgmQh2mFNVtk7u+rc2vmBkfxs6HICsyAJNnYPKgtfHQwX+1GMD5/4v0tUD7NR3IwJGFFiow==", "user"=>{"email"=>"qinzheng15@mails.ucas.ac.cn", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"提交"}
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "qinzheng15@mails.ucas.ac.cn"], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[35m (3.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Update (0.3ms)[0m  [1m[33mUPDATE "users" SET "remember_created_at" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["remember_created_at", "2020-01-16 10:31:43.472274"], ["updated_at", "2020-01-16 10:31:43.477035"], ["id", 4]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[35m (2.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Update (0.3ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = $1, "current_sign_in_at" = $2, "last_sign_in_at" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["sign_in_count", 4], ["current_sign_in_at", "2020-01-16 10:31:43.481752"], ["last_sign_in_at", "2020-01-16 01:43:53.074473"], ["updated_at", "2020-01-16 10:31:43.482502"], ["id", 4]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Completed 302 Found in 232ms (ActiveRecord: 9.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-16 10:31:43 +0800
+Processing by PostsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "users"."id" FROM "users" INNER JOIN "requests" ON "users"."id" = "requests"."requestee_id" WHERE "requests"."requester_id" = $1 AND "requests"."accepted" = $2[0m  [["requester_id", 4], ["accepted", 1]]
+  ↳ app/models/post.rb:14
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 4], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:10
+  [1m[36mPost Load (2.8ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE (user_id IN (1) OR user_id = 4) ORDER BY "posts"."created_at" DESC, "posts"."created_at" ASC LIMIT $1 OFFSET $2[0m  [["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/posts/index.html.erb:29
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:33
+  [1m[36mCACHE Profile Load (0.0ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 4], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:33
+  [1m[36mLike Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "likes" WHERE "likes"."post_id" = $1 AND (user_id = 4) LIMIT $2[0m  [["post_id", 4], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:58
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "likes" WHERE "likes"."post_id" = $1[0m  [["post_id", 4]]
+  ↳ app/views/posts/index.html.erb:70
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = $1[0m  [["post_id", 4]]
+  ↳ app/views/posts/index.html.erb:108
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:33
+  [1m[36mProfile Load (2.0ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:33
+  [1m[36mLike Exists (2.3ms)[0m  [1m[34mSELECT  1 AS one FROM "likes" WHERE "likes"."post_id" = $1 AND (user_id = 4) LIMIT $2[0m  [["post_id", 1], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:58
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "likes" WHERE "likes"."post_id" = $1[0m  [["post_id", 1]]
+  ↳ app/views/posts/index.html.erb:70
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "likes" WHERE "likes"."post_id" = $1[0m  [["post_id", 1]]
+  ↳ app/views/posts/index.html.erb:74
+  [1m[36mLike Load (0.3ms)[0m  [1m[34mSELECT  "likes".* FROM "likes" WHERE "likes"."post_id" = $1 ORDER BY "likes"."created_at" DESC LIMIT $2[0m  [["post_id", 1], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:76
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:76
+  [1m[36mCACHE Profile Load (0.0ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:78
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = $1[0m  [["post_id", 1]]
+  ↳ app/views/posts/index.html.erb:108
+  Rendered posts/index.html.erb within layouts/application (57.5ms)
+  [1m[36mUser Load (2.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/layouts/application.html.erb:38
+  [1m[36mRoom Load (0.4ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "4_5"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:49
+  [1m[36mRoom Load (1.8ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_4"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:41
+Completed 500 Internal Server Error in 188ms (ActiveRecord: 17.0ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :chat=>{:user2_id=>#<User id: 1, first_name: "Wang", last_name: "Yicheng", email: "wangyicheng215@mails.ucas.ac.cn", created_at: "2019-12-16 23:45:28", updated_at: "2020-01-16 02:31:40", provider: nil, uid: nil, name: nil, image: nil>}, :controller=>"rooms"}, missing required keys: [:id]):
+    40:                 <% name_root = user.id.to_s + '_' + current_user.id.to_s%>
+    41:                 <% if (Room.find_by(name:name_root) != nil) %>
+    42:                   <li class="link-rooms">
+    43:                     <%= link_to "私人消息 (#{user.last_name})", room_path(chat:{user2_id:user}) %>
+    44:                   </li>
+    45:                 <% end %>
+    46:               <% end %>
+  
+app/views/layouts/application.html.erb:43:in `block in _app_views_layouts_application_html_erb__2677499967914987066_70259664065280'
+app/views/layouts/application.html.erb:38:in `_app_views_layouts_application_html_erb__2677499967914987066_70259664065280'
+Started GET "/profiles/1" for 127.0.0.1 at 2020-01-16 10:32:10 +0800
+Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mProfile Load (0.2ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/profiles_controller.rb:4
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/profiles_controller.rb:5
+  Rendering profiles/show.html.erb within layouts/application
+  [1m[36mUser Load (3.1ms)[0m  [1m[34mSELECT "users".* FROM "users" INNER JOIN "requests" ON "users"."id" = "requests"."requester_id" WHERE "requests"."requestee_id" = $1 AND (requests.accepted = 0)[0m  [["requestee_id", 4]]
+  ↳ app/views/profiles/show.html.erb:22
+  [1m[36mUser Exists (2.7ms)[0m  [1m[34mSELECT  1 AS one FROM "users" INNER JOIN "requests" ON "users"."id" = "requests"."requester_id" WHERE "requests"."requestee_id" = $1 AND "users"."id" = $2 LIMIT $3[0m  [["requestee_id", 4], ["id", 1], ["LIMIT", 1]]
+  ↳ app/views/profiles/show.html.erb:24
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" INNER JOIN "requests" ON "users"."id" = "requests"."requestee_id" WHERE "requests"."requester_id" = $1 AND "requests"."accepted" = $2[0m  [["requester_id", 1], ["accepted", 1]]
+  ↳ app/views/profiles/show.html.erb:63
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" INNER JOIN "requests" ON "users"."id" = "requests"."requestee_id" WHERE "requests"."requester_id" = $1 AND "requests"."accepted" = $2 ORDER BY "users"."id" ASC LIMIT $3[0m  [["requester_id", 1], ["accepted", 1], ["LIMIT", 4]]
+  ↳ app/views/profiles/show.html.erb:66
+  [1m[36mProfile Load (0.2ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ app/views/profiles/show.html.erb:68
+  [1m[36mProfile Load (0.2ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 3], ["LIMIT", 1]]
+  ↳ app/views/profiles/show.html.erb:68
+  [1m[36mProfile Load (0.1ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 4], ["LIMIT", 1]]
+  ↳ app/views/profiles/show.html.erb:68
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT  1 AS one FROM "posts" WHERE "posts"."user_id" = $1 ORDER BY "posts"."created_at" DESC LIMIT $2 OFFSET $3) subquery_for_count[0m  [["user_id", 1], ["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/profiles/show.html.erb:82
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."user_id" = $1 ORDER BY "posts"."created_at" DESC LIMIT $2 OFFSET $3[0m  [["user_id", 1], ["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/profiles/show.html.erb:83
+  [1m[36mLike Exists (5.8ms)[0m  [1m[34mSELECT  1 AS one FROM "likes" WHERE "likes"."post_id" = $1 AND (user_id = 4) LIMIT $2[0m  [["post_id", 1], ["LIMIT", 1]]
+  ↳ app/views/profiles/show.html.erb:110
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "likes" WHERE "likes"."post_id" = $1[0m  [["post_id", 1]]
+  ↳ app/views/profiles/show.html.erb:122
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "likes" WHERE "likes"."post_id" = $1[0m  [["post_id", 1]]
+  ↳ app/views/profiles/show.html.erb:126
+  [1m[36mLike Load (2.5ms)[0m  [1m[34mSELECT  "likes".* FROM "likes" WHERE "likes"."post_id" = $1 ORDER BY "likes"."created_at" DESC LIMIT $2[0m  [["post_id", 1], ["LIMIT", 1]]
+  ↳ app/views/profiles/show.html.erb:128
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/profiles/show.html.erb:128
+  [1m[36mProfile Load (0.1ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  ↳ app/views/profiles/show.html.erb:130
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = $1[0m  [["post_id", 1]]
+  ↳ app/views/profiles/show.html.erb:160
+  [1m[36mCACHE Profile Load (0.0ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 4], ["LIMIT", 1]]
+  ↳ app/views/profiles/show.html.erb:184
+  Rendered profiles/show.html.erb within layouts/application (59.6ms)
+  [1m[36mUser Load (4.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/layouts/application.html.erb:38
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "4_5"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:49
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_4"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:41
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "3_4"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:41
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "2_4"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:41
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "requests" WHERE "requests"."requestee_id" = $1 AND "requests"."accepted" = $2[0m  [["requestee_id", 4], ["accepted", 0]]
+  ↳ app/views/layouts/application.html.erb:57
+Completed 200 OK in 169ms (Views: 126.7ms | ActiveRecord: 34.9ms)
+
+
+Started GET "/rooms/1?chat%5Buser2_id%5D=1" for 127.0.0.1 at 2020-01-16 10:32:24 +0800
+Processing by RoomsController#show as HTML
+  Parameters: {"chat"=>{"user2_id"=>"1"}, "id"=>"1"}
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_4"], ["LIMIT", 1]]
+  ↳ app/controllers/rooms_controller.rb:20
+  Rendering rooms/index.html.erb within layouts/application
+  [1m[36mRoomMessage Load (0.3ms)[0m  [1m[34mSELECT "room_messages".* FROM "room_messages" WHERE "room_messages"."room_id" = $1[0m  [["room_id", 10]]
+  ↳ app/views/rooms/index.html.erb:7
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1[0m  [["id", 1]]
+  ↳ app/views/rooms/index.html.erb:7
+  [1m[36mProfile Load (0.1ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  ↳ app/views/rooms/index.html.erb:11
+  Rendered rooms/index.html.erb within layouts/application (22.9ms)
+  [1m[36mProfile Load (2.3ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:26
+  [1m[36mUser Load (3.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/layouts/application.html.erb:38
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "4_5"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:49
+  [1m[36mCACHE Room Load (0.0ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_4"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:41
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "3_4"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:41
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "2_4"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:41
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "requests" WHERE "requests"."requestee_id" = $1 AND "requests"."accepted" = $2[0m  [["requestee_id", 4], ["accepted", 0]]
+  ↳ app/views/layouts/application.html.erb:57
+Completed 200 OK in 152ms (Views: 139.9ms | ActiveRecord: 9.4ms)
+
+
+Started GET "/cable" for 127.0.0.1 at 2020-01-16 10:32:24 +0800
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2020-01-16 10:32:25 +0800
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/channels/application_cable/connection.rb:13
+Registered connection (Z2lkOi8vY2xvbmUtYm9vay9Vc2VyLzQ)
+  [1m[36mRoom Load (0.3ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/channels/room_channel.rb:3
+RoomChannel is transmitting the subscription confirmation
+RoomChannel is streaming from room:Z2lkOi8vY2xvbmUtYm9vay9Sb29tLzEw
+Started GET "/chatroom" for 127.0.0.1 at 2020-01-16 10:32:25 +0800
+Processing by RoomsController#index as HTML
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mRoom Load (1.6ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "public_room"], ["LIMIT", 1]]
+  ↳ app/controllers/rooms_controller.rb:3
+  Rendering rooms/index.html.erb within layouts/application
+  [1m[36mRoomMessage Load (0.3ms)[0m  [1m[34mSELECT "room_messages".* FROM "room_messages" WHERE "room_messages"."room_id" = $1[0m  [["room_id", 1]]
+  ↳ app/views/rooms/index.html.erb:7
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1[0m  [["id", 1]]
+  ↳ app/views/rooms/index.html.erb:7
+  [1m[36mProfile Load (1.8ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  ↳ app/views/rooms/index.html.erb:11
+  Rendered rooms/index.html.erb within layouts/application (25.4ms)
+  [1m[36mProfile Load (4.3ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:26
+  [1m[36mUser Load (3.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/layouts/application.html.erb:38
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "4_5"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:49
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_4"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:41
+Completed 500 Internal Server Error in 138ms (ActiveRecord: 13.3ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :chat=>{:user2_id=>#<User id: 1, first_name: "Wang", last_name: "Yicheng", email: "wangyicheng215@mails.ucas.ac.cn", created_at: "2019-12-16 23:45:28", updated_at: "2020-01-16 02:31:40", provider: nil, uid: nil, name: nil, image: nil>}, :controller=>"rooms"}, missing required keys: [:id]):
+    40:                 <% name_root = user.id.to_s + '_' + current_user.id.to_s%>
+    41:                 <% if (Room.find_by(name:name_root) != nil) %>
+    42:                   <li class="link-rooms">
+    43:                     <%= link_to "私人消息 (#{user.last_name})", room_path(chat:{user2_id:user}) %>
+    44:                   </li>
+    45:                 <% end %>
+    46:               <% end %>
+  
+app/views/layouts/application.html.erb:43:in `block in _app_views_layouts_application_html_erb__2677499967914987066_70259663893700'
+app/views/layouts/application.html.erb:38:in `_app_views_layouts_application_html_erb__2677499967914987066_70259663893700'
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2020-01-16 10:32:36 +0800
+RoomChannel stopped streaming from room:Z2lkOi8vY2xvbmUtYm9vay9Sb29tLzEw
+Started GET "/rooms/1?chat%5Buser2_id%5D=1" for 127.0.0.1 at 2020-01-16 10:32:36 +0800
+Processing by RoomsController#show as HTML
+  Parameters: {"chat"=>{"user2_id"=>"1"}, "id"=>"1"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mRoom Load (0.9ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_4"], ["LIMIT", 1]]
+  ↳ app/controllers/rooms_controller.rb:20
+  Rendering rooms/index.html.erb within layouts/application
+  [1m[36mRoomMessage Load (0.3ms)[0m  [1m[34mSELECT "room_messages".* FROM "room_messages" WHERE "room_messages"."room_id" = $1[0m  [["room_id", 10]]
+  ↳ app/views/rooms/index.html.erb:7
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1[0m  [["id", 1]]
+  ↳ app/views/rooms/index.html.erb:7
+  [1m[36mProfile Load (3.0ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  ↳ app/views/rooms/index.html.erb:11
+  Rendered rooms/index.html.erb within layouts/application (20.9ms)
+  [1m[36mProfile Load (3.1ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 4], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:26
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/layouts/application.html.erb:38
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "4_5"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:49
+  [1m[36mCACHE Room Load (0.0ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_4"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:41
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "3_4"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:41
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "2_4"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:41
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "requests" WHERE "requests"."requestee_id" = $1 AND "requests"."accepted" = $2[0m  [["requestee_id", 4], ["accepted", 0]]
+  ↳ app/views/layouts/application.html.erb:57
+Completed 200 OK in 133ms (Views: 118.2ms | ActiveRecord: 10.3ms)
+
+
+Started GET "/cable" for 127.0.0.1 at 2020-01-16 10:32:37 +0800
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2020-01-16 10:32:37 +0800
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/channels/application_cable/connection.rb:13
+Registered connection (Z2lkOi8vY2xvbmUtYm9vay9Vc2VyLzQ)
+  [1m[36mRoom Load (0.3ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/channels/room_channel.rb:3
+RoomChannel is transmitting the subscription confirmation
+RoomChannel is streaming from room:Z2lkOi8vY2xvbmUtYm9vay9Sb29tLzEw
+Started GET "/profiles/1" for 127.0.0.1 at 2020-01-16 10:37:38 +0800
+Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mProfile Load (0.2ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/profiles_controller.rb:4
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/profiles_controller.rb:5
+  Rendering profiles/show.html.erb within layouts/application
+  [1m[36mUser Load (3.2ms)[0m  [1m[34mSELECT "users".* FROM "users" INNER JOIN "requests" ON "users"."id" = "requests"."requester_id" WHERE "requests"."requestee_id" = $1 AND (requests.accepted = 0)[0m  [["requestee_id", 4]]
+  ↳ app/views/profiles/show.html.erb:22
+  [1m[36mUser Exists (4.8ms)[0m  [1m[34mSELECT  1 AS one FROM "users" INNER JOIN "requests" ON "users"."id" = "requests"."requester_id" WHERE "requests"."requestee_id" = $1 AND "users"."id" = $2 LIMIT $3[0m  [["requestee_id", 4], ["id", 1], ["LIMIT", 1]]
+  ↳ app/views/profiles/show.html.erb:24
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "users" INNER JOIN "requests" ON "users"."id" = "requests"."requestee_id" WHERE "requests"."requester_id" = $1 AND "requests"."accepted" = $2[0m  [["requester_id", 1], ["accepted", 1]]
+  ↳ app/views/profiles/show.html.erb:63
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" INNER JOIN "requests" ON "users"."id" = "requests"."requestee_id" WHERE "requests"."requester_id" = $1 AND "requests"."accepted" = $2 ORDER BY "users"."id" ASC LIMIT $3[0m  [["requester_id", 1], ["accepted", 1], ["LIMIT", 4]]
+  ↳ app/views/profiles/show.html.erb:66
+  [1m[36mProfile Load (0.1ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ app/views/profiles/show.html.erb:68
+  [1m[36mProfile Load (1.1ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 3], ["LIMIT", 1]]
+  ↳ app/views/profiles/show.html.erb:68
+  [1m[36mProfile Load (1.9ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 4], ["LIMIT", 1]]
+  ↳ app/views/profiles/show.html.erb:68
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT  1 AS one FROM "posts" WHERE "posts"."user_id" = $1 ORDER BY "posts"."created_at" DESC LIMIT $2 OFFSET $3) subquery_for_count[0m  [["user_id", 1], ["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/profiles/show.html.erb:82
+  [1m[36mPost Load (0.8ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."user_id" = $1 ORDER BY "posts"."created_at" DESC LIMIT $2 OFFSET $3[0m  [["user_id", 1], ["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/profiles/show.html.erb:83
+  [1m[36mLike Exists (4.3ms)[0m  [1m[34mSELECT  1 AS one FROM "likes" WHERE "likes"."post_id" = $1 AND (user_id = 4) LIMIT $2[0m  [["post_id", 1], ["LIMIT", 1]]
+  ↳ app/views/profiles/show.html.erb:110
+  [1m[35m (3.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "likes" WHERE "likes"."post_id" = $1[0m  [["post_id", 1]]
+  ↳ app/views/profiles/show.html.erb:122
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "likes" WHERE "likes"."post_id" = $1[0m  [["post_id", 1]]
+  ↳ app/views/profiles/show.html.erb:126
+  [1m[36mLike Load (1.1ms)[0m  [1m[34mSELECT  "likes".* FROM "likes" WHERE "likes"."post_id" = $1 ORDER BY "likes"."created_at" DESC LIMIT $2[0m  [["post_id", 1], ["LIMIT", 1]]
+  ↳ app/views/profiles/show.html.erb:128
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/profiles/show.html.erb:128
+  [1m[36mProfile Load (3.4ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  ↳ app/views/profiles/show.html.erb:130
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = $1[0m  [["post_id", 1]]
+  ↳ app/views/profiles/show.html.erb:160
+  [1m[36mCACHE Profile Load (0.0ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 4], ["LIMIT", 1]]
+  ↳ app/views/profiles/show.html.erb:184
+  Rendered profiles/show.html.erb within layouts/application (63.7ms)
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/layouts/application.html.erb:38
+  [1m[36mRoom Load (4.0ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "4_5"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:49
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_4"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:41
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "3_4"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:41
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "2_4"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:41
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "requests" WHERE "requests"."requestee_id" = $1 AND "requests"."accepted" = $2[0m  [["requestee_id", 4], ["accepted", 0]]
+  ↳ app/views/layouts/application.html.erb:57
+Completed 200 OK in 172ms (Views: 129.7ms | ActiveRecord: 34.1ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2020-01-16 10:37:44 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/index" for 127.0.0.1 at 2020-01-16 11:10:24 +0800
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/cable" for 127.0.0.1 at 2020-01-16 11:10:26 +0800
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2020-01-16 11:10:26 +0800
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (3.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/channels/application_cable/connection.rb:13
+Registered connection (Z2lkOi8vY2xvbmUtYm9vay9Vc2VyLzQ)
+  [1m[36mRoom Load (0.7ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/channels/room_channel.rb:3
+RoomChannel is transmitting the subscription confirmation
+RoomChannel is streaming from room:Z2lkOi8vY2xvbmUtYm9vay9Sb29tLzEw
+Started GET "/cable" for 127.0.0.1 at 2020-01-16 11:13:20 +0800
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2020-01-16 11:13:20 +0800
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/channels/application_cable/connection.rb:13
+Registered connection (Z2lkOi8vY2xvbmUtYm9vay9Vc2VyLzQ)
+  [1m[36mRoom Load (3.5ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/channels/room_channel.rb:3
+RoomChannel is transmitting the subscription confirmation
+RoomChannel is streaming from room:Z2lkOi8vY2xvbmUtYm9vay9Sb29tLzEw
+Started GET "/index" for 127.0.0.1 at 2020-01-16 11:13:46 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2020-01-16 11:13:50 +0800
+Processing by PostsController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "users"."id" FROM "users" INNER JOIN "requests" ON "users"."id" = "requests"."requestee_id" WHERE "requests"."requester_id" = $1 AND "requests"."accepted" = $2[0m  [["requester_id", 4], ["accepted", 1]]
+  ↳ app/models/post.rb:14
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.4ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 4], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:10
+  [1m[36mPost Load (0.7ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE (user_id IN (1) OR user_id = 4) ORDER BY "posts"."created_at" DESC, "posts"."created_at" ASC LIMIT $1 OFFSET $2[0m  [["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/posts/index.html.erb:29
+  [1m[36mUser Load (3.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:33
+  [1m[36mCACHE Profile Load (0.0ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 4], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:33
+  [1m[36mLike Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "likes" WHERE "likes"."post_id" = $1 AND (user_id = 4) LIMIT $2[0m  [["post_id", 4], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:58
+  [1m[35m (3.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "likes" WHERE "likes"."post_id" = $1[0m  [["post_id", 4]]
+  ↳ app/views/posts/index.html.erb:70
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = $1[0m  [["post_id", 4]]
+  ↳ app/views/posts/index.html.erb:108
+  [1m[36mUser Load (3.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:33
+  [1m[36mProfile Load (0.2ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:33
+  [1m[36mLike Exists (1.7ms)[0m  [1m[34mSELECT  1 AS one FROM "likes" WHERE "likes"."post_id" = $1 AND (user_id = 4) LIMIT $2[0m  [["post_id", 1], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:58
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "likes" WHERE "likes"."post_id" = $1[0m  [["post_id", 1]]
+  ↳ app/views/posts/index.html.erb:70
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "likes" WHERE "likes"."post_id" = $1[0m  [["post_id", 1]]
+  ↳ app/views/posts/index.html.erb:74
+  [1m[36mLike Load (0.3ms)[0m  [1m[34mSELECT  "likes".* FROM "likes" WHERE "likes"."post_id" = $1 ORDER BY "likes"."created_at" DESC LIMIT $2[0m  [["post_id", 1], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:76
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:76
+  [1m[36mCACHE Profile Load (0.0ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:78
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = $1[0m  [["post_id", 1]]
+  ↳ app/views/posts/index.html.erb:108
+  Rendered posts/index.html.erb within layouts/application (347.0ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/layouts/application.html.erb:38
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "4_5"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:49
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_4"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:41
+  [1m[36mRoom Load (1.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "3_4"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:41
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "2_4"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:41
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "requests" WHERE "requests"."requestee_id" = $1 AND "requests"."accepted" = $2[0m  [["requestee_id", 4], ["accepted", 0]]
+  ↳ app/views/layouts/application.html.erb:57
+Completed 200 OK in 1309ms (Views: 1191.6ms | ActiveRecord: 46.9ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2020-01-16 11:14:02 +0800
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Im4i0KpliA1nizPDFc1R3/H1gLYzeN8GqD0VkWc5OXMr5RsoLHUqs2n7hk1wEmQCkhe0WMmnm93cGbUmFqaFEQ=="}
+  [1m[36mUser Load (3.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Update (1.4ms)[0m  [1m[33mUPDATE "users" SET "remember_created_at" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["remember_created_at", nil], ["updated_at", "2020-01-16 11:14:02.856410"], ["id", 4]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[35m (3.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Completed 302 Found in 25ms (ActiveRecord: 8.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-16 11:14:02 +0800
+Processing by PostsController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-01-16 11:14:02 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 155ms (Views: 153.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2020-01-16 11:14:06 +0800
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cLS1t/n3bljqJcDFyOLMam1iAmmjgSgDdK2pBC3JQrGfFzwg4VuEjxc5jwkufsiRHNFi6EfuNObMWp3Nks/OjQ==", "user"=>{"email"=>"wangyicheng215@mails.ucas.ac.cn", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"提交"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "wangyicheng215@mails.ucas.ac.cn"], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Update (0.3ms)[0m  [1m[33mUPDATE "users" SET "remember_created_at" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["remember_created_at", "2020-01-16 11:14:06.304056"], ["updated_at", "2020-01-16 11:14:06.309665"], ["id", 1]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[35m (2.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[36mUser Update (2.8ms)[0m  [1m[33mUPDATE "users" SET "sign_in_count" = $1, "current_sign_in_at" = $2, "last_sign_in_at" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["sign_in_count", 17], ["current_sign_in_at", "2020-01-16 11:14:06.315766"], ["last_sign_in_at", "2020-01-16 10:29:47.019282"], ["updated_at", "2020-01-16 11:14:06.316473"], ["id", 1]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Redirected to http://localhost:3000/
+Completed 302 Found in 278ms (ActiveRecord: 7.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-01-16 11:14:06 +0800
+Processing by PostsController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /var/lib/gems/2.3.0/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "users"."id" FROM "users" INNER JOIN "requests" ON "users"."id" = "requests"."requestee_id" WHERE "requests"."requester_id" = $1 AND "requests"."accepted" = $2[0m  [["requester_id", 1], ["accepted", 1]]
+  ↳ app/models/post.rb:14
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mProfile Load (0.3ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:10
+  [1m[36mPost Load (3.5ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE (user_id IN (2,3,4) OR user_id = 1) ORDER BY "posts"."created_at" DESC, "posts"."created_at" ASC LIMIT $1 OFFSET $2[0m  [["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/posts/index.html.erb:29
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:33
+  [1m[36mProfile Load (0.2ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 4], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:33
+  [1m[36mLike Exists (4.4ms)[0m  [1m[34mSELECT  1 AS one FROM "likes" WHERE "likes"."post_id" = $1 AND (user_id = 1) LIMIT $2[0m  [["post_id", 4], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:58
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "likes" WHERE "likes"."post_id" = $1[0m  [["post_id", 4]]
+  ↳ app/views/posts/index.html.erb:70
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = $1[0m  [["post_id", 4]]
+  ↳ app/views/posts/index.html.erb:108
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:33
+  [1m[36mProfile Load (0.9ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 3], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:33
+  [1m[36mLike Exists (3.1ms)[0m  [1m[34mSELECT  1 AS one FROM "likes" WHERE "likes"."post_id" = $1 AND (user_id = 1) LIMIT $2[0m  [["post_id", 3], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:58
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "likes" WHERE "likes"."post_id" = $1[0m  [["post_id", 3]]
+  ↳ app/views/posts/index.html.erb:70
+  [1m[35m (4.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = $1[0m  [["post_id", 3]]
+  ↳ app/views/posts/index.html.erb:108
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:33
+  [1m[36mProfile Load (1.9ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:33
+  [1m[36mLike Exists (1.5ms)[0m  [1m[34mSELECT  1 AS one FROM "likes" WHERE "likes"."post_id" = $1 AND (user_id = 1) LIMIT $2[0m  [["post_id", 2], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:58
+  [1m[36mLike Load (2.7ms)[0m  [1m[34mSELECT  "likes".* FROM "likes" WHERE "likes"."post_id" = $1 AND (user_id = 1) ORDER BY "likes"."created_at" DESC LIMIT $2[0m  [["post_id", 2], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:63
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "likes" WHERE "likes"."post_id" = $1[0m  [["post_id", 2]]
+  ↳ app/views/posts/index.html.erb:70
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "likes" WHERE "likes"."post_id" = $1[0m  [["post_id", 2]]
+  ↳ app/views/posts/index.html.erb:74
+  [1m[36mLike Load (0.3ms)[0m  [1m[34mSELECT  "likes".* FROM "likes" WHERE "likes"."post_id" = $1 ORDER BY "likes"."created_at" DESC LIMIT $2[0m  [["post_id", 2], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:76
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:76
+  [1m[36mCACHE Profile Load (0.0ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:78
+  [1m[35m (13.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = $1[0m  [["post_id", 2]]
+  ↳ app/views/posts/index.html.erb:108
+  [1m[36mComment Load (0.3ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = $1 ORDER BY "comments"."created_at" ASC[0m  [["post_id", 2]]
+  ↳ app/views/posts/index.html.erb:110
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:111
+  [1m[36mCACHE Profile Load (0.0ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:112
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:33
+  [1m[36mCACHE Profile Load (0.0ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:33
+  [1m[36mLike Exists (5.8ms)[0m  [1m[34mSELECT  1 AS one FROM "likes" WHERE "likes"."post_id" = $1 AND (user_id = 1) LIMIT $2[0m  [["post_id", 1], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:58
+  [1m[36mLike Load (0.3ms)[0m  [1m[34mSELECT  "likes".* FROM "likes" WHERE "likes"."post_id" = $1 AND (user_id = 1) ORDER BY "likes"."created_at" DESC LIMIT $2[0m  [["post_id", 1], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:63
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "likes" WHERE "likes"."post_id" = $1[0m  [["post_id", 1]]
+  ↳ app/views/posts/index.html.erb:70
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "likes" WHERE "likes"."post_id" = $1[0m  [["post_id", 1]]
+  ↳ app/views/posts/index.html.erb:74
+  [1m[36mLike Load (0.3ms)[0m  [1m[34mSELECT  "likes".* FROM "likes" WHERE "likes"."post_id" = $1 ORDER BY "likes"."created_at" DESC LIMIT $2[0m  [["post_id", 1], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:76
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:76
+  [1m[36mCACHE Profile Load (0.0ms)[0m  [1m[34mSELECT  "profiles".* FROM "profiles" WHERE "profiles"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  ↳ app/views/posts/index.html.erb:78
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."post_id" = $1[0m  [["post_id", 1]]
+  ↳ app/views/posts/index.html.erb:108
+  Rendered posts/index.html.erb within layouts/application (161.2ms)
+  [1m[36mUser Load (4.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/layouts/application.html.erb:38
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_5"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:49
+  [1m[36mRoom Load (0.2ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_3"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:49
+  [1m[36mRoom Load (0.1ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_2"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:49
+  [1m[36mRoom Load (2.3ms)[0m  [1m[34mSELECT  "rooms".* FROM "rooms" WHERE "rooms"."name" = $1 LIMIT $2[0m  [["name", "1_4"], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:49
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "requests" WHERE "requests"."requestee_id" = $1 AND "requests"."accepted" = $2[0m  [["requestee_id", 1], ["accepted", 0]]
+  ↳ app/views/layouts/application.html.erb:57
+Completed 200 OK in 321ms (Views: 249.9ms | ActiveRecord: 57.5ms)
+
+

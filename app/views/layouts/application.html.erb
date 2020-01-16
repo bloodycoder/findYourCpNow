@@ -40,7 +40,7 @@
                 <% name_root = user.id.to_s + '_' + current_user.id.to_s%>
                 <% if (Room.find_by(name:name_root) != nil) %>
                   <li class="link-rooms">
-                    <%= link_to "私人消息 (#{user.last_name})", room_path(chat:{user2_id:user}) %>
+                    <%= link_to "私人消息 (#{user.last_name})", privateroom_path(name_root) %>
                   </li>
                 <% end %>
               <% end %>
@@ -48,7 +48,7 @@
                 <% name_root = current_user.id.to_s + '_' + user.id.to_s%>
                 <% if (Room.find_by(name:name_root) != nil) %>
                   <li class="link-rooms">
-                    <%= link_to "私人消息 (#{user.last_name})", room_path(chat:{user2_id:user}) %>
+                    <%= link_to "私人消息 (#{user.last_name})", privateroom_path(name_root) %>
                   </li>
                 <% end %>
               <% end %>
