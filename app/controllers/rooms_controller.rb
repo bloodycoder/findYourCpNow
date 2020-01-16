@@ -29,9 +29,10 @@ class RoomsController < ApplicationController
         render "index"
         #byebug
     end
-    
-    def one(room_name)
-        @room = Room.find_by(name:room_name)
+
+    def one
+        name_root = params[:format].to_s
+        @room = Room.find_by(name:name_root)
         @room_message = RoomMessage.new room: @room
         @room_messages = @room.room_messages.includes(:user)
         render "index"
